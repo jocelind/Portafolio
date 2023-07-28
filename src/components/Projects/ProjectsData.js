@@ -24,7 +24,7 @@ export const projectsPortfolio = [
     ],
     description:
       "Application created with React JS and CSS to make a request an external API of Rick & Morty.",
-    repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
+    repository: "https://github.com/jocelind/rickmorty",
     website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
   },
   {
@@ -36,7 +36,7 @@ export const projectsPortfolio = [
     ],
     description:
       "Application created with React JS and Styled Components to make a request an external API of Simpsons.",
-    repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
+    repository: "https://github.com/jocelind/simpsons",
     website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
   },
   {
@@ -48,7 +48,7 @@ export const projectsPortfolio = [
     ],
     description:
       "Application of a landing page created with React JS and React Bootstrap to make a form with dynamic fields.",
-    repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
+    repository: "https://github.com/jocelind/Formulario-Dinamico",
     website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
   },
 ];
