@@ -48,8 +48,8 @@ export const TitleProject = styled.h3`
   color: ${colors.TEXT_WHITE};
   background: linear-gradient(
     135deg,
-    rgb(102, 153, 255) 0%,
-    rgb(255, 51, 102) 100%
+    rgb(153, 216, 36) 0%,
+    rgb(13, 218, 156) 100%
   );
   box-shadow: ${colors.BOX_SHADOW_BLUE};
   text-decoration: none;
@@ -60,7 +60,7 @@ export const ContainerImage = styled.div`
   img {
     width: 100%;
     box-shadow: ${colors.BOX_SHADOW_BLUE};
-    border-radius: 5px;
+    border-radius: 50px;
   }
   @media (max-width: 768px) {
     img {

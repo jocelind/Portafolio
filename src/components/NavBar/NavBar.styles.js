@@ -68,7 +68,7 @@ export const ContainerItems = styled.div`
 export const Button = styled.button`
   color: ${colors.TEXT_WHITE};
   box-shadow: ${colors.BOX_SHADOW_BUTTON};
-  background: linear-gradient(135deg, #6699ff 0%, #ff3366 100%);
+  background: linear-gradient(135deg, #ece42b 0%, #1ecadc 100%);
   padding: 12px 20px;
   border-radius: 999px;
   border: none;

@@ -13,8 +13,8 @@ const NavBar = () => {
         <S.ContainerLogo>
           <S.ImageLogo src="/img/foto.jpg" alt="Logo Ivan" />
           <div>
-            <h1>Ricardo Arias</h1>
-            <h2>Front-end Developer</h2>
+            <h1>Jocelin Diaz</h1>
+            <h2>Auditor Informatico</h2>
           </div>
         </S.ContainerLogo>
         <S.ContainerBurguer

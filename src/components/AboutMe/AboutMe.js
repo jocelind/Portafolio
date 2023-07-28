@@ -3,18 +3,17 @@ import * as S from "./AboutMe.styles";
 import logoGithub from "../../svg/github.svg";
 import logoLinkeind from "../../svg/linkedin.svg";
 import logoYoutube from "../../svg/youtube.svg";
-import foto from "../../images/projects/foto.jpg";
 
 const AboutMe = () => {
   const socialNetworks = [
     {
       name: "Github",
-      link: "https://github.com/Ricardo3105",
+      link: "https://github.com/jocelind",
       logo: logoGithub,
     },
     {
       name: "Linkedind",
-      link: "https://www.linkedin.com/in/ricardo-arias-591398166/",
+      link: "https://www.linkedin.com/feed/",
       logo: logoLinkeind,
     },
     // {
@@ -29,16 +28,29 @@ const AboutMe = () => {
       <S.ContainerFlex>
         <S.ContainerText>
           <S.Title>
-            <p>👋🏼 Hello, i'm</p>
-            <p>Ricardo Arias</p>
-            <p>Front-end Developer</p>
+            <p>👋🏼 Hola, soy</p>
+            <p>Jocelin Diaz</p>
+            <p>Auditor Informatico</p>
           </S.Title>
           <S.DescriptionText>
             <p>
-              ¡Hola! Soy un ingeniero de sistemas apasionado por el mundo del
-              desarrollo y con más de 4 años de experiencia en el campo. Soy una
-              persona proactiva y entusiasta, siempre buscando aprender cosas
-              nuevas y enfrentar nuevos desafíos en mi carrera profesional.
+              Analizo los procesos dentro de una empresa e identifico el
+              potencial de optimización identificando debilidades y
+              disfunciones. Trabajo en un pequeño equipo de hasta tres personas
+              y somos el enlace comunicativo entre departamentos y dirección.
+              Actuó como observadora y me comunico con todos los departamentos y
+              empleados, pero también evaluó los datos y revisando los
+              documentos (manuales de la empresa, descripciones de procesos y
+              especificaciones de productos).
+            </p>
+            <p>
+              Me ocupo de la resolución de problemas y de investigar las
+              oportunidades de mejora. Los resultados obtenidos se discuten con
+              los directores de los departamentos pertinentes y se crea una
+              estrategia de posibles soluciones y planes de acción. Finalmente,
+              todas las recomendaciones se pasan en un informe final que la
+              empresa tomará sin carácter vinculante. Es decir, la empresa
+              decidirá independientemente que decisiones tomar.
             </p>
             <p>
               ¡Gracias por visitar mi portfolio! Si deseas conocer más sobre mis
@@ -58,9 +70,7 @@ const AboutMe = () => {
             ))}
           </S.ContainerIcons>
         </S.ContainerText>
-        <S.ContainerImage>
-          <img src={foto} alt="Ricardo Arias" />
-        </S.ContainerImage>
+        <S.ContainerImage></S.ContainerImage>
       </S.ContainerFlex>
     </S.ContainerAboutMe>
   );

@@ -27,18 +27,6 @@ export const projectsPortfolio = [
     repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
     website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
   },
-  //   {
-  //     title: "Todo list",
-  //     image: tareasProject,
-  //     techs: [
-  //       { name: "React", src: reactImage },
-  //       { name: "Semantic UI React", src: semanticImage },
-  //     ],
-  //     description:
-  //       "Application created with React JS and to make a list of tasks where you can add or remove it.",
-  //     repository: "AQUI DEBEN COLOCAR EL LINK DEL GITHUB DEL PROYECTO",
-  //     website: "#!", //ustedes deben colocar aquí el link del enlace público de netlify
-  //   },
   {
     title: "Simpsons API",
     image: simpsonProject,
