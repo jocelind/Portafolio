@@ -8,7 +8,7 @@ const NavBar = () => {
     document.getElementById(item).scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <div style={{ position: "fixed", top: 0, left: 0, right: 0 }}>
+    <div style={{ top: 0, left: 0, right: 0 }}>
       <S.ContainerNavBar>
         <S.ContainerLogo>
           <S.ImageLogo src="/img/foto.jpg" alt="Logo Ivan" />
